@@ -1,194 +1,208 @@
-# Vishwajeet Adkine
+<div align="center">
 
-**AI/ML Researcher & Systems Engineer** — building agentic AI platforms, interpretable security ML systems, and edge-deployed LLM infrastructure. Research focus: spectral theory of neural networks and AI safety.
+# Hi there, I'm Vishwajeet Adkine 👋
 
-[![Portfolio](https://img.shields.io/badge/Research_Portfolio-Live-c0392b?style=flat-square)](https://portfolio-vishwajeetadkine.vercel.app/)
-[![Trust Score Demo](https://img.shields.io/badge/Trust_Score_Demo-Deployed-3a6b5a?style=flat-square)](https://websitetrustscore.vishwajeetadkine705.workers.dev/)
-[![Email](https://img.shields.io/badge/Email-Contact-2d4a6e?style=flat-square)](mailto:vishwajeetadkine705@gmail.com)
+### AI/ML Engineer • LLM Researcher • Full-Stack Builder
 
----
+Building production-grade AI applications, fine-tuning LLMs, and publishing research on scam detection & deep learning.
 
-## Repositories
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-vishwajeetadkine.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/983111)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/vishwajeet456)
 
-| Repo | What's inside |
-|------|--------------|
-| [AI-Systems](https://github.com/983111/AI-Systems) | Stremini AI (15-agent workspace, StreminiIME keyboard, Electron automation agent, 517-topic Academy) + KhetiAI (crop disease detection, APMC price forecasting) |
-| [Applied-AI-ML-Projects](https://github.com/983111/Applied-AI-ML-Projects) | DistilBERT fine-tuning (86.7%), character-level LSTM from scratch, CNN on CIFAR-10 (87.3%), 4-layer neural net in pure NumPy, Prompt Engineering Lab |
-| [RESEARCH-work](https://github.com/983111/RESEARCH-work) | ML Scam Detector (94.96% acc, 28k URLs), Gradient Descent as a Dynamical System (interactive paper), Spectral Properties of Attention Matrices (interactive paper) |
-| [AI-Projects](https://github.com/983111/AI-Projects) | STYFI (fashion AI + SDXL image enhancement), Scholira (scholarship RAG engine, TF-IDF from scratch), Zz-AI (voice-first desktop agent) |
-| [Reinforcement-Learning](https://github.com/983111/Reinforcement-Learning) | AgentGrid — PPO autonomous navigation agent built from scratch in PyTorch |
+</div>
 
 ---
 
-## AI Systems & Projects
+## 🚀 About Me
 
-### Stremini AI — Cross-platform Multi-Agent AI Ecosystem
-`github.com/983111/AI-Systems` · `kaggle.com/datasets/vishwajeetadkine/streminiai`
+I'm an AI/ML Engineer & Researcher based in Nanded, Maharashtra, India, focused on building real products that ship — not just prototypes. I've founded and led teams building applications with **200+ downloads and a 4.5★ rating**, published **peer-reviewed research** on scam detection systems, and I love going deep on the theory (attention spectral properties, RL from scratch, gradient descent as a dynamical system) as much as I love shipping full-stack apps.
 
-- 15 specialized agents across Intelligence, Creation, Strategy, and Execution layers — each backed by a Cloudflare Worker and K2-Think-v2
-- Token-streaming SSE pipeline with think-block gating, in-flight promise deduplication, and retry-with-backoff — ~60% reduction in perceived latency
-- Map-reduce document QA supporting 600k-character inputs with parallel chunk extraction, NOT RELEVANT filtering, and final synthesis pass
-- AI keyboard (StreminiIME) with 7 endpoints: autocomplete, tone rewrite, grammar, translation across 40+ languages using dual-model routing
-- Stremini Academy: 517 topics, 25 tracks, 6 tiers with XP/streak engine, custom LLM output parser, and full offline persistence
-- Fine-tuned LLaMA 3 Instruct on curated Mobile Automation Dataset — BLEU-4: 0.78, Exact Match: 72%, Execution Success Rate: 68%; exported to ONNX and published to HuggingFace Hub
-- Desktop hands-on-screen AI helper using Electron and K2-Think-v2 for contextual assistance and real-time inference
+- 🔭 Currently building **Stremini AI** — an AI productivity suite spanning mobile, web, and browser
+- 🌱 Currently growing **CeryXAI** — an agricultural AI platform for farmers, in field testing with 100+ users
+- 📝 Published: *ScamShield — Interpretable Multi-Signal Scam Detection* (NSRI Student Research Journal, 2026)
+- 🎯 Founder & President of **Kaelith Novamind AI Club**, mentoring 30+ students
+- 💡 Founder of **Kaelith Educational Society**, a free AI-powered mentorship platform for underserved students
+- ⚡ Fun fact: I train PPO agents and derive optimal learning rates for fun on weekends
 
 ---
 
-### KhetiAI (KhetiPlus) — Agricultural AI for Indian Farmers
-`github.com/983111/AI-Systems`
+## 🛠️ Tech Stack
 
-- Agricultural AI platform for underserved Indian farmers — dual-model architecture (Gemini 2.5 Flash for vision, K2-Think-v2 for reasoning) on React 19 + Cloudflare Worker
-- Crop disease detection returning structured pathology reports (diagnosis, causal agent, treatment) from base64 image input via Gemini vision
-- 3-month APMC mandi price forecasting in JSON mode with trend classification (rising / stable / falling)
-- Multi-agent Intelligence Hub covering pest migration, soil health, and agricultural advisory
+**Languages**
 
----
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
 
-### Elevated — Free AI-Powered Educational Platform (Non-Profit)
+**ML / Deep Learning**
 
-- Free AI-powered platform helping 200+ students improve SOPs, essays, and CVs using K2-Think-v2
-- Students can discover global scholarships, find mentors from top universities, secure internships, and connect with research professors
-- End-to-end guidance system for college applications, essay refinement, and career pathway planning — provided at no cost to students from underserved communities
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-FFD21E?style=flat-square)
+![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
 
----
+**LLMs & Fine-tuning**
 
-### AgentGrid — PPO Autonomous Navigation Agent
-`github.com/983111/Reinforcement-Learning`
+![LoRA](https://img.shields.io/badge/LoRA%2FQLoRA-4B8BBE?style=flat-square)
+![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-6E56CF?style=flat-square)
+![Multi--Agent Systems](https://img.shields.io/badge/Multi--Agent%20Systems-FF6F61?style=flat-square)
 
-- Built from-scratch Proximal Policy Optimization (PPO) with GAE on custom procedurally-generated GridWorld environment using PyTorch
-- Shared MLP Actor-Critic architecture (2×128, Tanh) with 20,485 policy parameters; achieved 60% success rate on 10×10 grid after 300,000 timesteps
-- Complete training infrastructure: rollout buffer, advantage estimation, PPO-clip surrogate loss, value function loss, and entropy regularization
+**Reinforcement Learning**
 
----
+![PPO](https://img.shields.io/badge/PPO-1E90FF?style=flat-square)
+![Gymnasium](https://img.shields.io/badge/Gymnasium-0081A7?style=flat-square)
+![Actor--Critic](https://img.shields.io/badge/Actor--Critic-8A2BE2?style=flat-square)
 
-### Android Automation AI — Fine-Tuned LLaMA Instruct
-`huggingface.co/vishwajeet456`
+**Frontend & Web**
 
-- Fine-tuned LLaMA 3 Instruct converting natural language commands into executable Android automation scripts via ADB
-- Designed specialized Mobile Automation Dataset with intent-labeled user queries paired with Android automation code
-- BLEU-4: 0.78, Exact Match: 72%, Execution Success Rate: 68%; ONNX-exported inference pipelines for edge deployment
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white)
 
----
+**Backend & Deployment**
 
-### ML Scam Detector — Interpretable Security Pipeline
-`github.com/983111/RESEARCH-work` · DOI: 10.5281/zenodo.18988169 · [Live endpoint →](https://websitetrustscore.vishwajeetadkine705.workers.dev/)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Cloudflare Workers](https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=flat-square&logo=cloudflareworkers&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-- 16 hand-crafted features + Logistic Regression with Platt calibration — 100% recall, 95% precision on stratified dataset
-- Malicious URL detector: 94.96% accuracy on 28,000-URL dataset (URLhaus + Tranco Top 1M) with FastAPI inference endpoint
-- Three-tier ensemble: heuristics → ML → LLM with confidence-based routing, cutting LLM cost by ~90%
+**Models & APIs**
 
----
-
-### STYFI — Fashion AI Backend
-`github.com/983111/AI-Projects`
-
-- Outfit intelligence via Gemini 2.5 Flash
-- Two-stage product image enhancement pipeline: segmentation → SDXL img2img for high-quality results
-
----
-
-### Scholira — Scholarship Retrieval Engine
-`github.com/983111/AI-Projects`
-
-- Serverless scholarship retrieval engine matching students to 110 global scholarships
-- TF-IDF built entirely from scratch (tokeniser, IDF, cosine similarity) — no external ML library used
+![GPT--4](https://img.shields.io/badge/GPT--4-412991?style=flat-square&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square)
+![Gemini](https://img.shields.io/badge/Gemini%202.5%20Flash-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq%20Llama%204-F55036?style=flat-square)
+![DistilBERT](https://img.shields.io/badge/DistilBERT-FFD21E?style=flat-square)
 
 ---
 
-### Zz Voice OS — Voice-First Desktop AI Agent
-`github.com/983111/AI-Projects`
+## 🏆 Featured Projects
 
-- Voice-first AI OS in Electron with tiered LLM dispatch: regex intent → LRU cache → daily token quota → Groq Llama 3.3-70b → fallback
-- HS256 JWT authentication and Supabase REST client built from scratch
+### 🤖 [Stremini AI Platform](https://portfolio-vishwajeetadkine.vercel.app)
+**Team Lead & Full-Stack Developer** · 2024–2026
+> Comprehensive AI productivity suite — **200+ downloads, 4.5★ rating**
 
----
+- 🗨️ AI chatbot overlay for any Android app via Accessibility Services
+- 🛡️ Scam detection engine using WHOIS APIs, Gemini, and OCR
+- 🖱️ AI automation agent that executes actions via Vision APIs
+- ⌨️ AI keyboard supporting 20+ languages with predictive text
+- 🎓 Stremini Academy — 500+ AI learning topics with an AI Project Mentor
+- 💼 Stremini Workspace — Google Drive/Gmail/Forms/Slides integration + Notion-style planner generation
 
-### Silicon Scientist — Autonomous Lab Agent
+### 🌾 [CeryXAI — Agricultural AI Solution](https://portfolio-vishwajeetadkine.vercel.app)
+**Founder & Team Lead of 7** · 2024–2026
+> Disease detection, weather forecasting, and fertilizer recommendations for farmers — showcased at the **K2-Think Hackathon**
 
-- Autonomous lab-agent web application with data visualization, experiment orchestration, and hypothesis evolution tracking
-- Built with React, Tailwind CSS, and Recharts
+- 🔬 Gemini vision models for crop disease detection
+- 🧠 K2-Think-v2 for agricultural reasoning
+- 📱 Flutter mobile app + responsive web platform
+- 🧪 Field testing with 100+ farmers underway
 
----
+### 🛍️ Styfi — AI-Powered E-Commerce Platform
+**Technical Mentor & Lead Developer** · 2024–2025
+> Virtual try-on and AI seller studio for small vendors
 
-## Research
+- 👗 AI virtual try-on using Gemini vision models
+- 📸 AI seller studio converting product photos into studio-quality images
+- 🎯 Personalized recommendation engine
 
-### Spectral Properties of Attention Matrices in Transformers
-`github.com/983111/RESEARCH-work` · [Interactive paper →](https://portfolio-vishwajeetadkine.vercel.app/)
+### 🧭 AgentGrid — PPO Navigation Agent
+**From-scratch Reinforcement Learning** 
+> Proximal Policy Optimization + GAE on a custom GridWorld, **60% success rate** after 300K timesteps
 
-- Proved power-law singular value decay (σᵢ ≈ C/iᵅ, α ∈ [0.5, 1.0]) and derived Frobenius norm O(√n) / spectral norm O(log n) scaling
-- Formalised sparsity-rank duality via attention entropy: effective rank ≈ exp(H(attn)), establishing expressivity-efficiency trade-offs with practical sparsity guidelines
+- Shared MLP Actor-Critic (2×128, Tanh), 20,485 parameters
+- Full rollout buffer, advantage estimation, PPO-clip loss, entropy regularization
 
----
+### 📱 Android Automation AI — Fine-Tuned LLaMA
+> Converts natural language into executable Android automation scripts
 
-### Gradient Descent as a Dynamical System
-`github.com/983111/RESEARCH-work` · Interactive HTML paper
-
-- Derived Jacobian stability conditions via spectral radius ρ(I − η·H); proved optimal learning rate η* = 2/(λ_min + λ_max) for quadratic convergence
-- Published as interactive HTML paper with live bifurcation diagrams
-
----
-
-### Persistent Memory Architectures for Human-like NPC Behavior
-
-- Independent research on next-generation Game AI integrating RL, Memory Graphs, Vector Retrieval (HNSW), and Large Language Models
-- Four-layer NPC intelligence architecture evaluated across 1,500+ simulated interaction episodes
-- Memory-augmented RL agents achieved action entropy of 2.31 bits vs. 1.47 (RL-only) and 0.89 (scripted); player-perceived realism improved to 4.1/5.0 vs. 3.2/5.0 (RL-only) and 2.4/5.0 (scripted)
-- Accepted at HPAIR (Harvard Project for Asian and International Relations)
-
----
-
-### Hybrid Interpretable Scam Detection — Flagship Research Manuscript
-DOI: 10.5281/zenodo.18988169
-
-- Unified ensemble of supervised learning, LLM semantic analysis, and rule-based heuristics with explainability and deployment realism
+- **BLEU-4: 0.78 · Exact Match: 72% · Execution Success: 68%**
+- ONNX-exported pipeline for edge deployment
 
 ---
 
-### AI Safety & Prompt Injection Defense — Applied Research
+## 📚 Research & Publications
 
-- Pattern-based detection with regex matching, input sanitisation, and layered system-prompt hardening
-- Deployed in Stremini AI production environment
+<table>
+<tr>
+<td width="70%">
 
----
+**🛡️ ScamShield: Interpretable Multi-Signal Scam Detection**
+*NSRI Student Research Journal, 2026*
+Hybrid pipeline combining a 24-feature ML model, an LLM semantic safety layer, and rule-based heuristics.
 
-## ML Experiments
+</td>
+<td width="30%">
 
-| Project | Method | Result |
-|---------|--------|--------|
-| IT Support Classifier | DistilBERT fine-tuning (HuggingFace) | 86.7% test accuracy · 5 classes · 300 samples |
-| CNN on CIFAR-10 | 1.2M param CNN, batch norm, OneCycleLR, label smoothing | 87.3% in 30 epochs |
-| Character-Level LSTM | Pure NumPy — all gates, BPTT, gradient clipping, Adam | Zero external ML framework |
-| Neural Net from Scratch | 4-layer MLP, pure NumPy, mini-batch SGD | Zero autograd |
-| Prompt Engineering Lab | 8 A/B experiments, LLM-as-judge scoring (4-axis rubric) | K2-Think-v2 · exportable JSON/Markdown |
+**F1 = 0.9969** (synthetic)
+**F1 = 0.9303** (real-world SMS)
+125× storage reduction vs DistilBERT
+Sub-5ms inference
 
----
+</td>
+</tr>
+</table>
 
-## Tech Stack
+- 📐 **Spectral Properties of Attention Matrices in Transformers** — power-law singular value decay, O(log n) norm scaling, sparsity-rank duality via attention entropy
+- 📉 **Gradient Descent as a Dynamical System** — Jacobian stability analysis, optimal LR formula η = 2/(λmin + λmax), interactive HTML paper with live bifurcation diagrams
+- 🔍 **AI Research Agent** — ArXiv/ResearchGate integration, RAG + multi-agent paper analysis and gap-finding
+- 📊 **Benchmarking Frontier Models on IOAI Questions** — K2-Think-v2, GPT-4, Claude, and Gemini 2.5 Flash evaluated via systematic few-shot prompting
 
-**ML & Research** — PyTorch · HuggingFace Transformers · scikit-learn · NumPy · SHAP · TF-IDF · Platt Calibration · BPTT · ONNX · Optuna
-
-**LLM & Inference** — MBZUAI K2-Think-v2 · Gemini 2.5 Flash · Groq Llama 4 Scout · LLaMA 3 Instruct · DistilBERT · SSE Streaming · Multi-Agent Orchestration · Prompt Engineering · RAG · Fine-tuning (LoRA/QLoRA) · Model Quantization
-
-**Reinforcement Learning** — PPO · GAE · Gymnasium · Custom Environment Design · Actor-Critic Architectures
-
-**Infrastructure** — Cloudflare Workers · FastAPI · Flask · Supabase · Electron · Playwright · CI/CD
-
-**Languages** — Python · JavaScript / TypeScript · C++ · Kotlin · Dart (Flutter)
-
-**Platforms** — Android (Accessibility Services, Custom IME) · Desktop (Electron) · Web (React 19, Vite, Tailwind CSS) · Mobile (Flutter)
+**DOI:** [10.5281/zenodo.18988169](https://doi.org/10.5281/zenodo.18988169) · **ISSN:** 3143-5653
 
 ---
 
-## Online Presence
+## 🌍 Leadership & Community Impact
 
-| Platform | Link |
-|----------|------|
-| Portfolio | [portfolio-vishwajeetadkine.vercel.app](https://portfolio-vishwajeetadkine.vercel.app/) |
-| GitHub | [github.com/983111](https://github.com/983111) |
-| HuggingFace | [huggingface.co/vishwajeet456](https://huggingface.co/vishwajeet456) |
-| Kaggle | [kaggle.com/datasets/vishwajeetadkine/streminiai](https://kaggle.com/datasets/vishwajeetadkine/streminiai) |
+| Organization | Role | Impact |
+|---|---|---|
+| **Kaelith Novamind AI Club** | Founder & President | Mentored 30+ students, hosted a 70+ participant hackathon, led a 6-person research team to publication |
+| **Kaelith Educational Society** | Founder & Lead Developer | Free AI counselor, scholarship aggregation, and CV/SOP support for underserved students; scaled to 17+ mentors |
+| **Girls Who Build** | CTO & Web Developer | Promoted Web Dev → CTO; built site (80+ SEO score); designed AI curriculum for female students |
 
 ---
 
-<sub>All research and projects authored independently.</sub>
+## 🎖️ Awards & Honors
+
+🥇 School Topper, Class 11th — Ranked First · GPA 93.17/100
+🏅 SCO Mathematics Olympiad — National Rank 14
+🏅 SCO AI Olympiad — International Rank 10
+🎗️ IMUN Mathematics Olympiad — Top Ranker
+🌐 **Delta Rising Society (Dubai) AI/ML Track** — 1 of 249 selected from 1,400 applicants
+🎓 Harvard Youth Leadership Summit — Selected Participant
+🏆 IAAC Physics Competition — Finalist · ICSC Computer Science Competition — Finalist
+🌱 FxB Climate Advocates Program & Silent Spring Summer Institute — Selected Participant
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=983111&show_icons=true&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=983111&layout=compact&theme=tokyonight&hide_border=true)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=983111&theme=tokyonight&hide_border=true)
+
+</div>
+
+---
+
+## 📫 Let's Connect
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-vishwajeetadkine.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/983111)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/vishwajeet456)
+
+*"Building at the intersection of research and real-world impact."*
+
+</div>
