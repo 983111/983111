@@ -16,7 +16,7 @@ Building production-grade AI applications, fine-tuning LLMs, and publishing rese
 
 ## 🚀 About Me
 
-I'm an AI/ML Engineer & Researcher based in Nanded, Maharashtra, India, focused on building real products that ship — not just prototypes. I've founded and led teams building applications with **200+ downloads and a 4.5★ rating**, published **peer-reviewed research** on scam detection systems, and I love going deep on the theory (attention spectral properties, RL from scratch, gradient descent as a dynamical system) as much as I love shipping full-stack apps.
+I'm an AI/ML Engineer & Researcher based in  Maharashtra, India, focused on building real products that ship — not just prototypes. I've founded and led teams building applications with **200+ downloads and a 4.5★ rating**, published **peer-reviewed research** on scam detection systems, and I love going deep on the theory (attention spectral properties, RL from scratch, gradient descent as a dynamical system) as much as I love shipping full-stack apps.
 
 - 🔭 Currently building **Stremini AI** — an AI productivity suite spanning mobile, web, and browser
 - 🌱 Currently growing **CeryXAI** — an agricultural AI platform for farmers, in field testing with 100+ users
