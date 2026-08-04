@@ -2,7 +2,7 @@
 
 # Hi there, I'm Vishwajeet Adkine 👋
 
-### AI/ML Engineer • LLM Researcher • Full-Stack Builder
+
 
 Building production-grade AI applications, fine-tuning LLMs, and publishing research on scam detection & deep learning.
 
@@ -14,12 +14,12 @@ Building production-grade AI applications, fine-tuning LLMs, and publishing rese
 
 ---
 
-## 🚀 About Me
+##  About Me
 
 I'm an AI/ML Engineer & Researcher based in  Maharashtra, India, focused on building real products that ship — not just prototypes. I've founded and led teams building applications with **200+ downloads and a 4.5★ rating**, published **peer-reviewed research** on scam detection systems, and I love going deep on the theory (attention spectral properties, RL from scratch, gradient descent as a dynamical system) as much as I love shipping full-stack apps.
 
-- 🔭 Currently building **Stremini AI** — an AI productivity suite spanning mobile, web, and browser
-- 🌱 Currently growing **CeryXAI** — an agricultural AI platform for farmers, in field testing with 100+ users
+- Currently building **Stremini AI** — an AI productivity suite spanning mobile, web, and browser
+- 🌱
 - 📝 Published: *ScamShield — Interpretable Multi-Signal Scam Detection* (NSRI Student Research Journal, 2026)
 - 🎯 Founder & President of **Kaelith Novamind AI Club**, mentoring 30+ students
 - 💡 Founder of **Kaelith Educational Society**, a free AI-powered mentorship platform for underserved students
