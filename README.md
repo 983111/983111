@@ -47,7 +47,7 @@ I have worked on two research projects, both centred on evaluating model behavio
 
 A hybrid approach to scam detection combining learned signals with interpretable decision logic. The project received Distinguished Recognition from the NSRI Research Journal.
 
-[Read the implementation and evaluation](https://github.com/983111/scam-spam-evaluation)
+[Read the implementation and evaluation](https://github.com/AstroCode10/zero-day-research)
 
 **Feature-space distance and zero-day detection failure**
 
@@ -72,6 +72,6 @@ I am especially interested in model evaluation, deep learning, reinforcement lea
 
 <div align="center">
 
-[Portfolio](https://prt-delta.vercel.app/) · [Read my writing](https://vishwajeet-blog.vercel.app/) · [Explore repositories](https://github.com/983111?tab=repositories)
+[Portfolio](https://prt-delta.vercel.app/) · [Read my writing](https://vishwajeet-blog-psi.vercel.app/)] · [Explore repositories](https://github.com/983111?tab=repositories)
 
 </div>
