@@ -2,144 +2,76 @@
 
 # Vishwajeet Adkine
 
-**AI Researcher · Machine Learning Engineer · Builder**
+**I build, test, and investigate AI systems.**
 
-Researching machine learning and intelligent systems, then translating ideas into working software.
+From model behaviour and evaluation to tools people can actually use.
 
-<a href="https://prt-delta.vercel.app/">Portfolio</a> &nbsp;·&nbsp;
-<a href="https://github.com/983111">GitHub</a> &nbsp;·&nbsp;
-<a href="https://www.kaggle.com/">Kaggle</a> &nbsp;·&nbsp;
-<a href="https://scholar.google.com/">Google Scholar</a>
+[Website](https://prt-delta.vercel.app/) · [GitHub](https://github.com/983111) · [Writing](https://vishwajeet-blog.vercel.app/)
 
 </div>
 
 ---
 
-## Profile
+## What I'm working on
 
-I am a high school student focused on machine learning, reinforcement learning, and large language model systems. My work spans research, from-scratch implementations, model evaluation, and applications designed for real users.
+My interests sit at the intersection of machine learning research and practical engineering. I spend time understanding why models behave the way they do, building small experiments to test those ideas, and turning useful results into products.
 
-I founded **Think 42 AI Labs**, an independent AI research and development initiative. Previously, I co-founded and led development at **Stremini AI**, an AI mobile and automation ecosystem that reached more than 500 downloads.
+A lot of that work happens through **[Think 42 AI Labs](https://think42ailabs.me/)**, an independent initiative I founded to make room for collaborative AI research and experimentation.
 
-## At a glance
+At the moment, my work is spread across three threads:
 
-<div align="center">
+- **Reliable machine learning** — model evaluation, generalisation, interpretability, and failure analysis.
+- **Language and intelligent systems** — fine-tuning, retrieval, inference workflows, and reinforcement learning.
+- **Applied AI** — building tools for agriculture, education, and everyday workflows.
 
-<table>
-<tr>
-<td align="center" width="25%"><strong>2</strong><br/>Research papers</td>
-<td align="center" width="25%"><strong>17</strong><br/>Core researchers</td>
-<td align="center" width="25%"><strong>200+</strong><br/>Community users</td>
-<td align="center" width="25%"><strong>500+</strong><br/>Product downloads</td>
-</tr>
-</table>
+## Selected work
 
-</div>
+A few repositories that give a better picture of what I build than a list of technologies.
 
-## Research
-
-### ScamShield: Interpretable Multi-Signal Scam Detection
-*NSRI Research Journal · Distinguished Recognition*
-
-A hybrid scam-detection pipeline combining machine learning, interpretable signals, and rule-based analysis.
-
-- F1 score: **0.9969** on synthetic data.
-- Sub-5 ms inference with interpretable predictions.
-
-### Can Feature-Space Distance Explain Zero-Day Detection Failure?
-*Sister Research Journal · Top 5 of 100 submissions*
-
-Designed a **Leave-One-Attack-Out (LOAO)** evaluation framework using XGBoost to investigate zero-day network intrusion generalization anomalies.
-
-## Building
-
-### Think 42 AI Labs
-*Founder & Lead · July 2026 – Present*
-
-Founded an independent AI research and development initiative. Recruited 17 core researchers, grew a community of 200+ users, and launched two research and education platforms alongside three AI products.
-
-| Initiative | Focus |
+| Project | What you'll find |
 |---|---|
-| **K2 Horizon Lab** | Experimentation platform for LLM inference, fine-tuning, and model evaluation. |
-| **IOAI Lab** | Learning platform for AI Olympiad preparation, covering mathematical foundations, algorithms, and coding exercises. |
-| **CeryS AI** | Multimodal agricultural assistant combining plant-disease support, diagnosis and treatment recommendations, weather, and government-scheme information. Completed Google Play closed testing; public release scheduled for 6 November 2026. |
-| **Styfi** | AI fashion marketplace in development, with virtual try-on, outfit recommendations, and product visualization. |
-| **Scholira** | Scholarship matching across 110+ global scholarships, using TF-IDF retrieval and a two-stage ranking system. |
+| [ScamShield evaluation](https://github.com/983111/scam-spam-evaluation) | Experiments around interpretable scam detection, evaluation, and robustness. |
+| [CeryS PlantNet experiments](https://github.com/983111/CeryS-Plantnet-model) | External image testing, failure analysis, and visualisations for plant-disease classification. |
+| [Android automation model](https://github.com/983111/Fine-tuned-model-for-automation) | Fine-tuning a language model to translate natural-language instructions into Android automation actions. |
+| [Reinforcement learning](https://github.com/983111/Reinforcement-Learning) | Experiments with policy optimisation and learning agents. |
+| [Matrix & vision visualiser](https://github.com/983111/Matrix-transformer-and-computer-vision-visualizer) | Interactive work with transformations, matrices, and computer-vision concepts. |
+| [PageRank and Markov chains](https://github.com/983111/Random-Walks-Markov-Chains-PageRank-A-Mathematical-Modeling-Project) | Mathematical simulations of random walks, Markov chains, and ranking. |
+| [DistilBERT support classifier](https://github.com/983111/distilbert-it-support-classifier) | A transformer-based classifier for IT support requests. |
+| [CIFAR-10 classifier](https://github.com/983111/cifar10-classifier) | A compact CNN image-classification experiment. |
 
-### Stremini AI
-*Co-founder & Lead Developer · May 2025 – July 2026*
+## Research notes
 
-Co-founded and led an AI mobile application and automation ecosystem that reached **500+ downloads**, coordinating an eight-member team across backend and Flutter development.
+I have worked on two research projects, both centred on evaluating model behaviour rather than treating a benchmark score as the whole story.
 
-- **Stremini Workspace:** Connected Gmail, Google Drive, Forms, Slides, and a Notion-style database through the K2-Think-v2 reasoning model.
-- **Streaming inference:** Built an SSE pipeline with retry-with-backoff and request deduplication, reducing perceived latency by approximately 60%.
-- **Long-context QA:** Developed a map-reduce document question-answering system for inputs up to 600,000 characters.
-- **AI Keyboard:** Built seven API endpoints for autocomplete, tone rewriting, grammar correction, and translation across 40+ languages.
+**ScamShield — interpretable multi-signal scam detection**
 
-## Selected technical projects
+A hybrid approach to scam detection combining learned signals with interpretable decision logic. The project received Distinguished Recognition from the NSRI Research Journal.
 
-### AgentGrid — Reinforcement Learning Navigation Agent
-Implemented Proximal Policy Optimization (PPO) with Generalized Advantage Estimation (GAE) in PyTorch, using a shared MLP Actor-Critic architecture. Reached **60% success** on a 10×10 GridWorld after 300,000 training timesteps.
+[Read the implementation and evaluation](https://github.com/983111/scam-spam-evaluation)
 
-### Android Automation AI — Fine-Tuned LLaMA 3
-Fine-tuned LLaMA 3 Instruct to convert natural-language commands into executable Android ADB scripts using a custom intent-labelled dataset.
+**Feature-space distance and zero-day detection failure**
 
-| BLEU-4 | Exact match | Execution success |
-|:---:|:---:|:---:|
-| **0.78** | **72%** | **68%** |
+An investigation into how feature-space distance relates to zero-day network intrusion detection, using a Leave-One-Attack-Out evaluation setup with XGBoost. Selected among the top five submissions out of 100 by the Sister Research Journal.
 
-Exported an ONNX-based pipeline for edge inference.
+## Things taking shape
 
-### Machine Learning Implementations from Scratch
-- **Neural network:** Four-layer NumPy implementation with forward propagation, backpropagation, and mini-batch SGD.
-- **Character-level LSTM:** Recurrent gates, backpropagation through time, gradient clipping, and Adam without deep learning frameworks.
-- **DistilBERT:** Fine-tuned for five-class IT support classification, achieving 86.7% test accuracy.
-- **CNN:** 1.2-million-parameter CIFAR-10 classifier, achieving 87.3% accuracy in 30 epochs.
+- **[K2 Horizon Lab](https://think-k2ailab.vercel.app/)** — a space for LLM experimentation, fine-tuning, and evaluation.
+- **[IOAI Lab](https://think42ailabs.me/)** — learning resources and practice for students preparing for AI Olympiad topics.
+- **[CeryS AI](https://think42ailabs.me/)** — an agricultural assistant bringing plant-health support and practical farming information into one product.
+- **Stremini** — an AI workspace and mobile toolkit I previously co-built; the product reached 500+ downloads.
 
-### Mathematical & Computational Projects
-- **Matrix Transformer & Computer Vision Visualizer:** Interactive 2D/3D affine transformations, CNN feature maps, and Vision Transformer attention visualizations.
-- **Stochastic Modeling & PageRank Simulation Engine:** Markov chains, absorbing chains, random walks, and PageRank through power iteration, with Monte Carlo validation against analytical results.
+For platform updates and project context, visit [Think 42 AI Labs](https://think42ailabs.me/).
 
-## Technical toolkit
+## A few tools I reach for
 
-<div align="center">
+Python · PyTorch · NumPy · scikit-learn · XGBoost · Hugging Face · OpenCV · React · Flutter · Kotlin · JavaScript · Cloudflare Workers · Supabase
 
-![Python](https://img.shields.io/badge/Python-242424?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-242424?style=flat-square&logo=javascript&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-242424?style=flat-square&logo=dart&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-242424?style=flat-square&logo=kotlin&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-242424?style=flat-square&logo=pytorch&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-242424?style=flat-square&logo=numpy&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-242424?style=flat-square&logo=opencv&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-242424?style=flat-square)
-![React](https://img.shields.io/badge/React-242424?style=flat-square&logo=react&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-242424?style=flat-square&logo=flutter&logoColor=white)
-![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-242424?style=flat-square&logo=cloudflare&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-242424?style=flat-square&logo=supabase&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-242424?style=flat-square&logo=huggingface&logoColor=white)
-![Git](https://img.shields.io/badge/Git-242424?style=flat-square&logo=git&logoColor=white)
-
-</div>
-
-**Areas:** Deep learning · Reinforcement learning (PPO, GAE) · LLM fine-tuning · Model evaluation · TF-IDF retrieval · ONNX · Computer vision · REST APIs · Server-Sent Events
-
-## GitHub activity
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=983111&show_icons=true&hide_border=true&title_color=242424&text_color=555555&icon_color=555555&bg_color=ffffff" alt="GitHub statistics" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=983111&layout=compact&hide_border=true&title_color=242424&text_color=555555&bg_color=ffffff" alt="Most used languages" />
-
-<img src="https://streak-stats.demolab.com?user=983111&hide_border=true&background=FFFFFF&ring=555555&fire=555555&currStreakLabel=242424&sideLabels=555555&dates=777777" alt="GitHub contribution streak" />
-
-</div>
+I am especially interested in model evaluation, deep learning, reinforcement learning, LLM systems, and computer vision.
 
 ---
 
 <div align="center">
 
-**Research with rigor. Build with purpose.**
-
-<a href="https://prt-delta.vercel.app/">Portfolio</a> · <a href="https://github.com/983111">GitHub</a>
+[Portfolio](https://prt-delta.vercel.app/) · [Read my writing](https://vishwajeet-blog.vercel.app/) · [Explore repositories](https://github.com/983111?tab=repositories)
 
 </div>
